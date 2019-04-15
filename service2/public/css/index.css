@@ -1,0 +1,66 @@
+* {
+  font-family: "Nanum Pen Script", cursive;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+input {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  outline: none;
+}
+
+.contents {
+  width: 40%;
+  margin: 30%;
+  margin-top: 40%;
+  position: relative;
+  opacity: 0;
+  display: none;
+}
+
+.main {
+  text-align: center;
+  font-size: 32px;
+}
+
+.contents2 {
+  width: 40%;
+  margin: 30%;
+  margin-top: 40%;
+  position: relative;
+  opacity: 0;
+  display: none;
+}
+.contents2 button {
+  position: relative;
+  left: 25%;
+}
+
+.contents3 {
+  width: 60%;
+  margin: 20%;
+  margin-top: 40%;
+  position: relative;
+  opacity: 0;
+  display: none;
+  text-align: center;
+  font-size: 32px;
+}
+
+.contents4 {
+  width: 60%;
+  margin: 20%;
+  margin-top: 40%;
+  position: relative;
+  opacity: 0;
+  display: none;
+  text-align: center;
+  font-size: 32px;
+}
+
+/*# sourceMappingURL=index.css.map */

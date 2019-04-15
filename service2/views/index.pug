@@ -1,0 +1,29 @@
+meta(charset='utf-8')
+meta(name='viewport',content='width=device-width, initial-scale=1, shrink-to-fit=no')
+script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+//- link(rel='stylesheet',href='css/index.css')
+<link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" rel="stylesheet">
+link(href="css/index.css" rel="stylesheet")
+
+div.contents#contents
+	div.main#main
+
+div.contents2#contents2
+	div.text2#text2
+	button(onClick="not()") Not
+	button(onClick="agree()") Agree
+
+div.contents3#contents3
+	div.text3#text3 
+	button(onClick="prediction()") 좋아!
+	button(onClick="prediction()") 싫어!
+	button(onClick="prediction()") 나빠!
+	button(onClick="prediction()") 어쩌고!
+	button(onClick="prediction()") 저째!
+
+div.contents4#contents4
+	div.text4#text4 
+	button(onClick="retry()") 다시하기
+	button(onClick="finish()") 이걸로할래
+
+script(src="js/index.js")
