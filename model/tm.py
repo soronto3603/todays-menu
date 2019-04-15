@@ -170,8 +170,19 @@ if __name__ == '__main__':
 
     x_test = [[   1 ,   0 ,2019  ,  4 ,  52],
             [   6   , 0 ,2019  ,  0  , 22],
-            [   6  ,  0 ,2019  ,  0 ,  15]]
+            [   6  ,  0 ,2019  ,  0 ,  15],
+            [ 0 , 3 ,2019 , 1, 0]]
     x_test = np.asarray( x_test )
 
     pred = model.predict_classes(x_test)
     print(pred)
+
+    while(True):
+        a= [input().split(" ")]
+        x_test = np.asarray( a) 
+        pred = model.predict_classes(x_test)
+        for i in pred:
+            print(int2menu[i])
+        
+        
+        
